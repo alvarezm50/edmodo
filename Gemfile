@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rash',     '~> 0.3'
+gem 'rash', github: 'andriytyurnikov/rash', branch: 'softer_hashie_dependency'
 gem 'httparty', '0.10'
 
 group :development, :test do
